@@ -46,6 +46,9 @@ def activate(x, activation_function):
 activate(1.5, 'sigmoid')
 activate(-3, 'elu')
 activate(2, 'belu')
-    
+print(' ')
+
+#Cau 6 trac nghiem
+print (activate(3, 'sigmoid'))
 
     
