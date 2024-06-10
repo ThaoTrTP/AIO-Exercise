@@ -22,7 +22,7 @@ def evaluate_classification_model (tp, fp, fn):
     print('recall is', recall)
     print('f1_score is', f1_score)
 
-#exemple
+#example
 evaluate_classification_model (-2, 2, 3)
 evaluate_classification_model (50, 60, 20)
 evaluate_classification_model (1, 3, 'a')
